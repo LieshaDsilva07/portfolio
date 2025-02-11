@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Liesha's Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<header>
+
+        <nav class="navbar">
+            <div class="logo">MyPortfolio</div>
+            <button class="menu-toggle" id="menu-toggle">☰</button>
+            <ul class="nav-links" id="nav-links">
+                <li><a href="#about">About</a></li>
+                <li><a href="#education">Education</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+</header>
+    
+<!--ABOUT ME SECTION-->
+<section id="about" class="hero">
+            <div class="hero-content">
+            <div class="text-content">
+                <h1 class="section-heading">LIESHA DSILVA</h1>
+                <h2 class="animated-role"></h2>
+                <div class="social-links">
+                    <a href="https://github.com/LieshaDsilva07" target="_blank">
+                        <img src="./images/iconsgithub.png" alt="GitHub">
+                    </a>
+                    <a href="https://www.linkedin.com/in/lieshadsilva/" target="_blank">
+                        <img src="./images/iconslinkedin.png" alt="LinkedIn">
+                    </a>
+                </div>
+                <p>Specializing in frontend development with React, JavaScript, and CSS, while utilizing Python and SQL for data-driven decision-making.</p>
+                
+            </div>
+        </div>
+    </section>
+<!--EDUCATION SECTION-->
+<br>
+<section class="col">
+    <h2 class="section-heading" id="education">Education</h2>
+    <div class="contents">
+        <div class="box">
+            <h4>2022 - Present</h4>
+            <h3>Btech in Electrical & Computer Engineering</h3>
+            <h5> MIT World Peace University</h5><br>
+            <p>Pursuing a BTech in Electrical and Computer Engineering with a strong foundation in software development and AI-driven technologies.</p>
+        </div>
+
+        <div class="box">
+            <h4>2020 - 2022</h4>
+            <h3>Higher Secondary Education (Science)</h3>
+            <h5> St. Vincent’s Junior College</h5><br>
+            <p>Completed Higher Secondary Education with a strong foundation in Physics, Chemistry, and Mathematics, preparing for advanced studies in engineering and technology.</p>
+        </div>
+    </div>
+</section>
+
+<!--PROJECTS SECTION-->
+<h2 class="section-heading" id="projects">PROJECTS</h2>
+<div class="projects">
+    <div class="project-card">
+        <img src="./images/img1.png" alt="Project 1">
+        <h3>Travel Website</h3>
+        <p><strong>Tech Stack:</strong> HTML, CSS, Bootstrap </p>
+        <a href="https://github.com/LieshaDsilva07/Travel-website" class="github-btn" target="_blank">View on GitHub</a>
+    </div>
+
+    <div class="project-card">
+        <img src="./images/img2.png" alt="Project 2">
+        <h3>Space Landing Page</h3>
+        <p><strong>Tech Stack:</strong> HTML, CSS</p>
+        <a href="https://github.com/LieshaDsilva07/landing-page" class="github-btn" target="_blank">View on GitHub</a>
+    </div>
+</div>
+
+<!--SKILLS SECTION-->
+<section id="skills" class="skills-section">
+    <h2>SKILLS</h2>
+    <div class="skills">
+        <p>✔ HTML &nbsp; ✔ CSS &nbsp; ✔ JavaScript</p>
+        <p>✔ Tableau &nbsp; ✔ Python &nbsp; ✔ Excel &nbsp; ✔ MySQL</p>
+        <p>✔ C/C++ &nbsp; ✔ Git &nbsp; </p>
+    </div>
+</div>
+
+<!--CONTACT ME SECTION-->
+<section id="contact">
+    <h2>CONTACT</h2>
+    <form id="contact-form">
+        <input type="text" id="name" name="name" placeholder="Name" required>
+        <input type="email" id="email" name="email" placeholder="Email" required>
+        <textarea id="message" name="message" placeholder="Message" required></textarea>
+        <button type="submit">Submit</button>
+    </form>
+    <p id="error-message" style="color: red; display: none;">All fields are required!</p>    
+</section>
+<script src="script.js"></script>
+    
+</body>
+</html>

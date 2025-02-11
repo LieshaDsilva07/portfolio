@@ -1,6 +1,6 @@
 # 🚀 Liesha's Portfolio Website  
 
-A personal portfolio website showcasing projects, skills, and education, with JavaScript-powered form validation.  
+A personal portfolio website showcasing projects, skills, and education 
 
 ## 🌟 Features  
 - 🎨 **Responsive Design** – Optimized for all devices.  

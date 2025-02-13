@@ -1,4 +1,4 @@
-# 🚀 Liesha's Portfolio Website  
+# My Portfolio Website  
 
 A personal portfolio website showcasing projects, skills, and education 
 
@@ -24,4 +24,5 @@ A personal portfolio website showcasing projects, skills, and education
 ## 🔧 Tech Stack  
 - ✅ **HTML**  
 - ✅ **CSS**  
-- ✅ **JavaScript**  
+- ✅ **JavaScript**
+- ✅ **Bootstrap**
